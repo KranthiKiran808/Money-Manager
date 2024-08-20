@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+  }
+  section {
+    width: 80%;
+    margin: auto;
+  }
+  .name-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+    border-radius: 1rem;
+    background-size: cover;
+    padding: 30px 20px;
+    margin: 20px 0;
+  }
+  .name-container p {
+    margin-top: 10px;
+  }
+  .transaction-container {
+    border: 1px solid #cbd5e1;
+    padding: 20px;
+    border-radius: 10px;
+    width: 350px;
+  }
+  .butt {
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0b69ff;
+    color: #ffffff;
+  }
+  .input-container {
+    margin: 15px 0;
+  }
+  .input-container input,
+  select {
+    width: 100%;
+    margin-top: 5px;
+    height: 30px;
+    border: 1px solid #cbd5e1;
+    padding-left: 10px;
+    border-radius: 5px;
+  }
+  input::placehoder {
+    font-size: 15px;
+  }
+  .input-container label {
+    color: #7e858e;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .transaction-add-his-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+  }
+  .table-container {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 10px 0;
+  }
+  .container2 {
+    width: 50%;
+    margin-right: 150px;
+  }
+  .table-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .table-header p {
+    width: 150px;
+    border: 1px solid red;
+  }
+  

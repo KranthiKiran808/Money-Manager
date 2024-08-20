@@ -1,0 +1,36 @@
+/* Write your CSS here */
+.money-detail-card {
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+    display: flex;
+    width: 350px;
+    max-width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+  }
+  .money-detail-card img {
+    width: 50px;
+  }
+  .money-details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .money-detail-card p {
+    margin-bottom: 5px;
+  }
+  .card1 {
+    border: 2px solid #84cc16;
+    background-color: #ecfccb;
+  }
+  .card2 {
+    border: 2px solid #06b6d4;
+    background-color: #cffafe;
+  }
+  .card3 {
+    border: 2px solid #7c3aed;
+    background-color: #ede9fe;
+  }
+  
